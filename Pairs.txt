@@ -1,3 +1,18 @@
-US:United States
-IBM:Internet Buisness Machines
-NJ:New Jersey
+A:1
+B:11
+C:123
+D:1234
+E:12345
+
+AA:11
+BB:111
+CB:1231
+DB:12341
+EB:123451
+
+AAA:111
+BBB:1111
+CBB:12311
+DBB:123411
+EBB:1234511
+

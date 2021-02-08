@@ -1,7 +1,11 @@
-﻿This is a simple project intended to get you used to python sockets and the formalities of projects like the readme. This exercise will serve as the foundation for the upcoming programming projects. A sample working client code is given to you in Client.py.  You also have a set of key:value pairs in a file called Pairs.txt . 
+﻿This is a simple project intended to get you used to python sockets and the formalities of projects like the readme. This exercise will serve as the foundation for 
+the upcoming programming projects. A sample working client code is given to you in Client.py.  You also have a set of key:value pairs in a file called Pairs.txt . 
 
 
-Your job is to write the corresponding Server code. The goal of the server is to get any string sent to it, and see if it is a key in the Pairs file. If it is it should send back the value, otherwise send back “NOT FOUND”. Lastly it should then close gracefully when the client is done sending strings. A sample output and input file has also been provided. Note that the exact pairs found in Pairs.txt might be different. Also note that the client can only access pairs by sending a message to the server and not directly.
+Your job is to write the corresponding Server code. The goal of the server is to get any string sent to it, and see if it is a key in the Pairs file. 
+If it is it should send back the value, otherwise send back “NOT FOUND”. Lastly it should then close gracefully when the client is done sending strings.
+A sample output and input file has also been provided. Note that the exact pairs found in Pairs.txt might be different. 
+Also note that the client can only access pairs by sending a message to the server and not directly.
 
 
 How we will test your programs

@@ -22,8 +22,8 @@ server_addr = (args.server_location, args.port)
 client_sock.connect(server_addr)
 
 #now we need to open both files
-with open(args.out_file, 'w') as write_file:
-	for line in open(args.in_file, 'r'):
+with open(args.out_file, 'w') as write_file: #out_file = results.txt
+	for line in open(args.in_file, 'r'): #in_file = source_strings.txt
 		#trim the line to avoid weird new line things
 		line = line.strip()
 		#now we write whatever the server tells us to the out_file
